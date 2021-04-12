@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(147, 209, 209);
+}
+
+.board {
+  border: 5px dashed red;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  width: 70vh;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.square {
+
+  background-color: black;
+  width: 10%;
+  height: 10%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+.square-active {
+  background-color: red;
+}
+
+.bullet  {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.enemy {
+  font-size: 50px !important;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.explosion {
+  background-color: red;
+}
+
+.deadEnemy {
+  font-size: xx-large;
+}
